@@ -1,0 +1,17 @@
+[project]
+name = "fishing-ai-starter"
+version = "0.1.0"
+description = "Local fishing advisor and catch log with LangChain and Groq"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.30,<1",
+  "langchain>=1.0,<2",
+  "langchain-groq>=0.3",
+  "python-dotenv>=1.0,<2",
+  "itsdangerous>=2.2,<3",
+  "tzdata>=2026.5",
+]
+
+[tool.uv]
+package = false
